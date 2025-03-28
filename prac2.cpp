@@ -7,7 +7,7 @@
 
 using namespace std;
 
-const int TABLE_SIZE = 101; // Prime number for better hashing
+const int TABLE_SIZE = 101;
 
 struct Entry{
     string word;

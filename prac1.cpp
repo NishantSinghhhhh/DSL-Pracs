@@ -56,7 +56,7 @@ void searchLinear(int roll){
 }
 
 // |=============================================================================|
-// |2. Linear Probing + Chaining Without Replacement + Chaining With Replacement |
+// |2. Linear Probing + Chaining Without Replacement |
 // |=============================================================================|
 
 struct chainEntry{

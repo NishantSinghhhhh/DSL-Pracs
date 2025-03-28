@@ -89,7 +89,6 @@ Node* leftmost(Node* root) {
 // ============================================================
 // Inorder traversal in a Threaded BST
 // ============================================================
-
 void inorderT(Node* root){
     if (root == nullptr) {
         cout << "Tree is empty.\n";
@@ -100,7 +99,6 @@ void inorderT(Node* root){
 
     while(curr != nullptr){
         cout<<curr->data<<" ";
-
         if(curr->rthread){
             curr = curr->right;
         }
@@ -109,13 +107,11 @@ void inorderT(Node* root){
         }
     }
     cout<<endl;
-
 }
 
 // ============================================================
 // Preorder traversal in a Threaded BST
 // ============================================================
-
 void preorderT(Node* root) {
     if (root == nullptr) {
         cout << "Tree is empty.\n";
